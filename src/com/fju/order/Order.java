@@ -10,6 +10,6 @@ public class Order {
         this.amount = amount;
         this.delivery = delivery;
         shipFeed = delivery.price;
-        total = amount + shipFeed;
+        total = amount + delivery.price;
     }
 }
